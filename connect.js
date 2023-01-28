@@ -1,6 +1,8 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
+//http://192.168.67.1:1000
+
 (async () => {
   let csvread = require('./csvread')
 
